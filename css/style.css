@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -10,20 +11,21 @@
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(rgba(251, 57, 57, 0.737), rgba(255, 216, 189, 0.627))
+    background: linear-gradient(rgb(251,57,57,0.737), rgb(255,216,189,0.627)) ;
 }
 .pipe{
     position: absolute;
-    bottom: 0;
-    width: 80px;  
-    animation: pipe-animation 1.5s infinite linear;
+    bottom: 0%;
+    width: 80px;
+    animation: pipe-animation 1.5s infinie linear;
 }
+
 .mario{
     width: 150px;
     bottom: 0;
     position: absolute;
-    
 }
+
 .jump{
     animation: jump 500ms ease-out;
 }
@@ -36,7 +38,6 @@
     text-align: center;
     font: bold 18pt Arial;
     padding: 20px;
-
 }
 
 @keyframes pipe-animation{
