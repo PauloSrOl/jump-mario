@@ -32,6 +32,12 @@
     width: 550px;
     animation: nuvem-animation 15s infinite linear;
 }
+.dicas{
+    text-align: center;
+    font: bold 18pt Arial;
+    padding: 20px;
+
+}
 
 @keyframes pipe-animation{
     from {
