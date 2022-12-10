@@ -38,8 +38,9 @@
     padding: 20px;
 
 }
-p{
+#footer{
     text-align: center;
+    font: normal 12px arial;
 }
 
 @keyframes pipe-animation{
