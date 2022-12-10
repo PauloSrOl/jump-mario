@@ -22,7 +22,7 @@
     width: 150px;
     bottom: 0;
     position: absolute;
-    
+
 }
 .jump{
     animation: jump 500ms ease-out;
@@ -37,6 +37,9 @@
     font: bold 18pt Arial;
     padding: 20px;
 
+}
+p{
+    text-align: center;
 }
 
 @keyframes pipe-animation{
